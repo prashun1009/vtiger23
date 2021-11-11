@@ -24,9 +24,10 @@ public class Demo_Skillrary_DropDownandSelect {
 		s.selectByIndex(1);
 		driver.findElement(By.xpath("(//a[text() = 'Cucumber'])[2]")).click();
 		WebElement add = driver.findElement(By.id("add"));
-		
+		System.out.println("hello");
 		Actions a = new Actions(driver);
 		a.doubleClick(add).perform();
+		
 		
 		
 
